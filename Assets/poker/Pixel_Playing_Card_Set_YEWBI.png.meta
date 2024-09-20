@@ -1,0 +1,3361 @@
+fileFormatVersion: 2
+guid: 090b09aba12ed48cf8476fe0dd72bf46
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 640
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c342e945f5448608688d329472fb37
+      internalID: 1750903266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 256
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54168c44a35cf459a924e1bbb2c5f831
+      internalID: 1644748042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3b8c30a8ebc4578809b11917c8ca82
+      internalID: 1260374555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0019a87655974809b781ab760569d99
+      internalID: -267187837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19424cefd8a64da6bdaca44f10603b1
+      internalID: 790838796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfac5e6bfcf974c7f8a384459fdd44e2
+      internalID: -1457333302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d099e9a66c64a5c94b4e357d50c524
+      internalID: 754081827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58abb3529de24d76bb6ddca4a880b7a
+      internalID: 1805494510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6573719dbe7c4a4ea615fb42dd27bb5
+      internalID: -1893160437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1f74b881fd64b03a24c9816b07e9fd
+      internalID: -1256832225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a26094cd2674c5f9b7b0873ce99bff
+      internalID: -872643185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b3eac8aec7d411092d24cbc1d70079
+      internalID: -1418740890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf713f1b415e494fa4c5abe26b7af8f
+      internalID: -1412494794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db673394be20d4329821a54bf5842556
+      internalID: -204659656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 96
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557e8d28a87644511ac953f610f2d605
+      internalID: -1877576793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 96
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d862eb01900450eb9511e7deb774e6
+      internalID: 1218195845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 112
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eacab1b26bd448ebbc0c34f390c4bf
+      internalID: -640543959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 112
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a50570e81e04c8eb81a253e37f6164
+      internalID: -161561563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_18
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 112
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cb3f5c7b7bd4bf38eb04387dfd4bf9
+      internalID: 1868428276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024eafa6c2e6a4fa0b4e95f82f17690c
+      internalID: -765757618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c27381fbb5a4becbc8433270065609
+      internalID: -186161173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4c1c95f6cf842dab98e2a4ad1f7cb7
+      internalID: 87876290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b33964aa2254b37b718aa798166f03
+      internalID: -404356583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4efca3673baa4910bd1df903081c7c3
+      internalID: -1170964853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5cff17fd8649dbbc9251034928835
+      internalID: 1219489648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 96
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7843fab7b0a8425aaae7c773907a2d1
+      internalID: 42486741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_26
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 96
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0968a053a88f4958b3004530c94b290
+      internalID: -531043631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_27
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 96
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde074452ba694c1ab40330e87e1f869
+      internalID: -1901411281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb2d109ad5a43ff9a96e2202ca02a2
+      internalID: -2098640771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb0a7d4bc4b14aa089c249b1396e56b
+      internalID: 1054379594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd2f3e06197d47e2a10498729adc244
+      internalID: -2025397904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded86b36a39a149e492e508742b37eda
+      internalID: -1692430461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c44b0f7736454324b4bacbf28a7bc65
+      internalID: -1828933455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afd712f87de84095bbed48fb4fdab69
+      internalID: -1153854753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009614add769246fea0e6879acbc7b1a
+      internalID: -1316181183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd39abc3d1f3b453489edcb8d47773bf
+      internalID: 295402984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4601fc9017a1d486aa0b22ba80fc370a
+      internalID: -297064185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_37
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98fcac4e9aaf493184fa80b2b652155
+      internalID: -661221952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647b381fdad7a4618b03a5ecad298690
+      internalID: -1950867031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8c5ac56e22e4a248b6522a60f02a6a
+      internalID: 1251371237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb408a05672554b68a66f37ba1aee020
+      internalID: -47920369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_41
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da4d175e433b4bab882d73b1f850831
+      internalID: -1454291858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cdf20a8a339464d9469bcaa06d508c
+      internalID: 1287728120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed77fd32b3e401886e4cca371bfd59
+      internalID: -245229265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3081bf1dd50443e0b1b8083d9966c1f
+      internalID: 526220649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_45
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be38b109cd1e9483784681dbe075fea8
+      internalID: 248922334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_46
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc47b2983d67b4d7b97749e6d8e9a8a1
+      internalID: -746137214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_47
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1247938e2c8174468a8ba591b2dac9c1
+      internalID: 1196726052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a285e41b2d447f19ff89174d43de46
+      internalID: 993113512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_49
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 73
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79036b22fc8843a2987ce594a4b675f
+      internalID: -1222012160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 76
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4071235373c49d5b962c61926c6636
+      internalID: -383104163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_51
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 73
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ff9afc977184a728bf8da4d9fda4bd
+      internalID: -1976874900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659e00cd1c954457b9a59d111829ef8d
+      internalID: 28620265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b9b23f8d43442399fffddd7ecbd617
+      internalID: 463302609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd4c8af73ddc48a3a8de8856dc0180e
+      internalID: 917224717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a019086e274d8da1e7c48bae6d282
+      internalID: -538543664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d47da4f93324dd2984e58bb945749e
+      internalID: -782491751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f90e3d94428457282fee40f951b03d
+      internalID: 1404489387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_58
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3a81282336848cfb1a9f6f0b485584
+      internalID: -1430988674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d407e3a546ded44e9a7830752d966cca
+      internalID: 1323010642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_60
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e664215c19a5c412cae42d0da088259c
+      internalID: -418975103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d3693ef782249e8b2cbb4c4cc667d3
+      internalID: 38613688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_62
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4d4117648a944019b7b24d01ee81bf
+      internalID: 385885116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ffcc8ec36c24a7e98dcaaa8559cb61
+      internalID: -1858501489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_64
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 67
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1b94b37ac794cefbb9cf947e943a1d
+      internalID: 1543570656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_65
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 70
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802c0962a7d0a47cdb34e153c1cabf19
+      internalID: -718825481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_66
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 67
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e97b822a9364485abbf1a5e887a75a2
+      internalID: -2012226540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_67
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4750cd923008642c6bf7d4fa307ad992
+      internalID: -1222890326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f299515322d4cc986e57b213939623
+      internalID: -436404517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_69
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 70
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f15c624c0de43b88af298c15e47502
+      internalID: 715586161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_70
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea47ed349a10f4b248bcf983b0cb58e5
+      internalID: 1347540864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625c94b051c7d443eb4f2cbb47c92b85
+      internalID: -1737092999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_72
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ec6850052c34fafb5e3a53e2f1a87f
+      internalID: 1219804601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 7
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72064b44e733746a1a454bb84f09defd
+      internalID: 940878356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3207883cbe5d493ca2f6b3b2b5d93d0
+      internalID: 1160621086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b28830fcf72c4802ab5b965e3a7f5b1
+      internalID: -1883863189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_76
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 7
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1491db4ff479e4d8888b0ab4bf915120
+      internalID: 1379114769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 64
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49b2fea5da2f47169ec78b8e4db7725
+      internalID: 1432073062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_78
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c1eb7dd1e1c4c6d8cd16c28fb7d6b7
+      internalID: 476392959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_79
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 64
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bdfd50d8fd4428dbe3fd15984f73d6
+      internalID: 455430090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_80
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fedec2ad529e414f876ddcab425dfbd
+      internalID: 905763241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26fb7bf81964a5987dac6cded892c5
+      internalID: -1191845957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89faa551804af4c55a5e4d4b188f7ed0
+      internalID: -1423714736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7b01e136ea47c09fa683fd5619a82
+      internalID: 132086920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_84
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96721ce081f2840548d7538bc98cf3df
+      internalID: -450505835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e0a73574b7436ca587830a478126b
+      internalID: -445326592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_86
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ceac86af7741d39e9d0753d1bf333
+      internalID: 209860342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae11d2ea4594d3387f316da533017e
+      internalID: -2035256957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa3696e9d6344368aa5087d3f9b5ee1
+      internalID: 548169027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_89
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb09a34745d34c8d91d97b6d4c27d63
+      internalID: 1848154261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_90
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 64
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3dcf7ead7c649e88ba562a40b7a4b7
+      internalID: -2077370417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_91
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a21b3b8bc7694d3296fe9243c177e7a
+      internalID: -1490728300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_92
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de73f039e6c546fb8513a7cb6e02f77
+      internalID: 946467638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_93
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 64
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d455c516e1bee415592fe11fe16f14bc
+      internalID: 1173496216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_94
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401c1960207e24a98a8cf629c2e49a78
+      internalID: -238085326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe83c2e09c644c3beebb3b75caf930
+      internalID: 1898106421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_96
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397f27928b8a64fa5a4eee1f4632f51e
+      internalID: 141235594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef6f88caa85b4dd38a69ef9c816a0c5
+      internalID: 804572269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_98
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7eddaab52f84b97a26479a17113a48
+      internalID: 1289820000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_99
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183083f69c3b94f9aae35bf5c2376041
+      internalID: 1875263978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_100
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab2f7b8d7b73499488feed4e4c345cd
+      internalID: 874947927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_101
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a23f3e50522e40c9af594644a04a1ad
+      internalID: -713633695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_102
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e385f2118264cfea017984cec181d0
+      internalID: -1452596372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f8285da2fb46d2963a422a2ea0143
+      internalID: 1476208829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_104
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 61
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb6ce38d48e4b89818289d3722213a
+      internalID: 470002647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_105
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 58
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ebcdaf7b9dc4ed19df6434b79fc372
+      internalID: -789986903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_106
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 61
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6dbb14726d249d787fd08d571f0f28
+      internalID: -859371627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_107
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a1d9461750424f924bd735a090d10
+      internalID: 1442439244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_108
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f9859a593b3479bbbd3a9a05b828b5
+      internalID: 1293099707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ba05007c0374bc7922495fec0b931c
+      internalID: 460006061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d671faae408a6476e9ede4b0e1c7017a
+      internalID: -406176299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_111
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ab849c9c28489f9c5cb515f4c48b8
+      internalID: -1624299999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e4e1b2ec884bc48459c3455a1b949
+      internalID: -1987344243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_113
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ac42ffc25e342a6919097301939849
+      internalID: -717777167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b182039c474a089a6e50aacb513db
+      internalID: 1799543175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_115
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe6b490da26c452dacd10c410be00d4
+      internalID: -1389800801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_116
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df93d4fcf12240809187bae1620f631
+      internalID: 1195650371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_117
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e80172d1c9604b62a995da0a0eb5343
+      internalID: -482381305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ea6f1bd43c04394b7b579d25c0f6a5
+      internalID: -1313206746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50297ffdf583b4171b3a97064b7849f2
+      internalID: -644999297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_120
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c5be548bb424bf99e12aedb2b21019
+      internalID: 188026939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_121
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1905678df0540669287100b2e21dca
+      internalID: -196414839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_122
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289713e1dfb35491a99d5c2b46ef0689
+      internalID: -461916599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_123
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6d39df21d18475b9b17feee5213900
+      internalID: -844223246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_124
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35822fed518e4d84b48c212fa1c525b
+      internalID: 898395844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_125
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 39
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b95bf16e79034792bd19480e1ac3b56
+      internalID: 1797472576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_126
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7243d9727d794465a4fd1d8e5c9d39e
+      internalID: -152106110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_127
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b917341aee36445c0b7c16776f40f9ad
+      internalID: -1186118625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7879b2a68ec848eda2993c85e502ee8
+      internalID: 606074438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_129
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ea486db112041258de7eb53d0017b0
+      internalID: -557939763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7ad3ba964241d0aaedfbd984bb1d9
+      internalID: -1865457639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_131
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12012a89949a44336a3605d6142e8a19
+      internalID: -2077149109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_132
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 38
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d9bc8291b4464f89d7bd78adc6012
+      internalID: -1009163839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_133
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d171b40e87264ef79c6769e4c08dddf
+      internalID: 361162911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_134
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270cb6840a7d0486684e9bdfbdd67117
+      internalID: 589974863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefdd1177730d4863a85998719d3aa2c
+      internalID: -2052675097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_136
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e489ac75d640aba104ec35e3cfa82
+      internalID: 352232825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_137
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b29b5e8e2e4e4f8dad7898fa4ab3b
+      internalID: -543974286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_138
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da40b5a9baa744921ace08abc9db7705
+      internalID: -687709693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_139
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e80267f36604d0ca19e66ab07b624d
+      internalID: -1935100478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_140
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd41a8ce4a6142f28738a05c42ef78d
+      internalID: 1265534763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1a87ad124cf4b2382c3bb9a19ccd7a
+      internalID: -557213047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_142
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fdff570e68147d9af08c2eaf40c903
+      internalID: 71443206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_143
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a953cbe5de2476c9a3f691a19cf976
+      internalID: 1031381718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_144
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f200c05d93c8413bbc7cfb9a28a7b53
+      internalID: -1858768463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_145
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51e25eb2084b4ee4bb00efa82f57912
+      internalID: 470977212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel_Playing_Card_Set_YEWBI_146
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 32
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6cd6bc7a70040afb48f218de356dd8
+      internalID: 1790481473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pixel_Playing_Card_Set_YEWBI_0: 1750903266
+      Pixel_Playing_Card_Set_YEWBI_1: 1644748042
+      Pixel_Playing_Card_Set_YEWBI_10: -872643185
+      Pixel_Playing_Card_Set_YEWBI_100: 874947927
+      Pixel_Playing_Card_Set_YEWBI_101: -713633695
+      Pixel_Playing_Card_Set_YEWBI_102: -1452596372
+      Pixel_Playing_Card_Set_YEWBI_103: 1476208829
+      Pixel_Playing_Card_Set_YEWBI_104: 470002647
+      Pixel_Playing_Card_Set_YEWBI_105: -789986903
+      Pixel_Playing_Card_Set_YEWBI_106: -859371627
+      Pixel_Playing_Card_Set_YEWBI_107: 1442439244
+      Pixel_Playing_Card_Set_YEWBI_108: 1293099707
+      Pixel_Playing_Card_Set_YEWBI_109: 460006061
+      Pixel_Playing_Card_Set_YEWBI_11: -1418740890
+      Pixel_Playing_Card_Set_YEWBI_110: -406176299
+      Pixel_Playing_Card_Set_YEWBI_111: -1624299999
+      Pixel_Playing_Card_Set_YEWBI_112: -1987344243
+      Pixel_Playing_Card_Set_YEWBI_113: -717777167
+      Pixel_Playing_Card_Set_YEWBI_114: 1799543175
+      Pixel_Playing_Card_Set_YEWBI_115: -1389800801
+      Pixel_Playing_Card_Set_YEWBI_116: 1195650371
+      Pixel_Playing_Card_Set_YEWBI_117: -482381305
+      Pixel_Playing_Card_Set_YEWBI_118: -1313206746
+      Pixel_Playing_Card_Set_YEWBI_119: -644999297
+      Pixel_Playing_Card_Set_YEWBI_12: -1412494794
+      Pixel_Playing_Card_Set_YEWBI_120: 188026939
+      Pixel_Playing_Card_Set_YEWBI_121: -196414839
+      Pixel_Playing_Card_Set_YEWBI_122: -461916599
+      Pixel_Playing_Card_Set_YEWBI_123: -844223246
+      Pixel_Playing_Card_Set_YEWBI_124: 898395844
+      Pixel_Playing_Card_Set_YEWBI_125: 1797472576
+      Pixel_Playing_Card_Set_YEWBI_126: -152106110
+      Pixel_Playing_Card_Set_YEWBI_127: -1186118625
+      Pixel_Playing_Card_Set_YEWBI_128: 606074438
+      Pixel_Playing_Card_Set_YEWBI_129: -557939763
+      Pixel_Playing_Card_Set_YEWBI_13: -204659656
+      Pixel_Playing_Card_Set_YEWBI_130: -1865457639
+      Pixel_Playing_Card_Set_YEWBI_131: -2077149109
+      Pixel_Playing_Card_Set_YEWBI_132: -1009163839
+      Pixel_Playing_Card_Set_YEWBI_133: 361162911
+      Pixel_Playing_Card_Set_YEWBI_134: 589974863
+      Pixel_Playing_Card_Set_YEWBI_135: -2052675097
+      Pixel_Playing_Card_Set_YEWBI_136: 352232825
+      Pixel_Playing_Card_Set_YEWBI_137: -543974286
+      Pixel_Playing_Card_Set_YEWBI_138: -687709693
+      Pixel_Playing_Card_Set_YEWBI_139: -1935100478
+      Pixel_Playing_Card_Set_YEWBI_14: -1877576793
+      Pixel_Playing_Card_Set_YEWBI_140: 1265534763
+      Pixel_Playing_Card_Set_YEWBI_141: -557213047
+      Pixel_Playing_Card_Set_YEWBI_142: 71443206
+      Pixel_Playing_Card_Set_YEWBI_143: 1031381718
+      Pixel_Playing_Card_Set_YEWBI_144: -1858768463
+      Pixel_Playing_Card_Set_YEWBI_145: 470977212
+      Pixel_Playing_Card_Set_YEWBI_146: 1790481473
+      Pixel_Playing_Card_Set_YEWBI_15: 1218195845
+      Pixel_Playing_Card_Set_YEWBI_16: -640543959
+      Pixel_Playing_Card_Set_YEWBI_17: -161561563
+      Pixel_Playing_Card_Set_YEWBI_18: 1868428276
+      Pixel_Playing_Card_Set_YEWBI_19: -765757618
+      Pixel_Playing_Card_Set_YEWBI_2: 1260374555
+      Pixel_Playing_Card_Set_YEWBI_20: -186161173
+      Pixel_Playing_Card_Set_YEWBI_21: 87876290
+      Pixel_Playing_Card_Set_YEWBI_22: -404356583
+      Pixel_Playing_Card_Set_YEWBI_23: -1170964853
+      Pixel_Playing_Card_Set_YEWBI_24: 1219489648
+      Pixel_Playing_Card_Set_YEWBI_25: 42486741
+      Pixel_Playing_Card_Set_YEWBI_26: -531043631
+      Pixel_Playing_Card_Set_YEWBI_27: -1901411281
+      Pixel_Playing_Card_Set_YEWBI_28: -2098640771
+      Pixel_Playing_Card_Set_YEWBI_29: 1054379594
+      Pixel_Playing_Card_Set_YEWBI_3: -267187837
+      Pixel_Playing_Card_Set_YEWBI_30: -2025397904
+      Pixel_Playing_Card_Set_YEWBI_31: -1692430461
+      Pixel_Playing_Card_Set_YEWBI_32: -1828933455
+      Pixel_Playing_Card_Set_YEWBI_33: -1153854753
+      Pixel_Playing_Card_Set_YEWBI_34: -1316181183
+      Pixel_Playing_Card_Set_YEWBI_35: 295402984
+      Pixel_Playing_Card_Set_YEWBI_36: -297064185
+      Pixel_Playing_Card_Set_YEWBI_37: -661221952
+      Pixel_Playing_Card_Set_YEWBI_38: -1950867031
+      Pixel_Playing_Card_Set_YEWBI_39: 1251371237
+      Pixel_Playing_Card_Set_YEWBI_4: 790838796
+      Pixel_Playing_Card_Set_YEWBI_40: -47920369
+      Pixel_Playing_Card_Set_YEWBI_41: -1454291858
+      Pixel_Playing_Card_Set_YEWBI_42: 1287728120
+      Pixel_Playing_Card_Set_YEWBI_43: -245229265
+      Pixel_Playing_Card_Set_YEWBI_44: 526220649
+      Pixel_Playing_Card_Set_YEWBI_45: 248922334
+      Pixel_Playing_Card_Set_YEWBI_46: -746137214
+      Pixel_Playing_Card_Set_YEWBI_47: 1196726052
+      Pixel_Playing_Card_Set_YEWBI_48: 993113512
+      Pixel_Playing_Card_Set_YEWBI_49: -1222012160
+      Pixel_Playing_Card_Set_YEWBI_5: -1457333302
+      Pixel_Playing_Card_Set_YEWBI_50: -383104163
+      Pixel_Playing_Card_Set_YEWBI_51: -1976874900
+      Pixel_Playing_Card_Set_YEWBI_52: 28620265
+      Pixel_Playing_Card_Set_YEWBI_53: 463302609
+      Pixel_Playing_Card_Set_YEWBI_54: 917224717
+      Pixel_Playing_Card_Set_YEWBI_55: -538543664
+      Pixel_Playing_Card_Set_YEWBI_56: -782491751
+      Pixel_Playing_Card_Set_YEWBI_57: 1404489387
+      Pixel_Playing_Card_Set_YEWBI_58: -1430988674
+      Pixel_Playing_Card_Set_YEWBI_59: 1323010642
+      Pixel_Playing_Card_Set_YEWBI_6: 754081827
+      Pixel_Playing_Card_Set_YEWBI_60: -418975103
+      Pixel_Playing_Card_Set_YEWBI_61: 38613688
+      Pixel_Playing_Card_Set_YEWBI_62: 385885116
+      Pixel_Playing_Card_Set_YEWBI_63: -1858501489
+      Pixel_Playing_Card_Set_YEWBI_64: 1543570656
+      Pixel_Playing_Card_Set_YEWBI_65: -718825481
+      Pixel_Playing_Card_Set_YEWBI_66: -2012226540
+      Pixel_Playing_Card_Set_YEWBI_67: -1222890326
+      Pixel_Playing_Card_Set_YEWBI_68: -436404517
+      Pixel_Playing_Card_Set_YEWBI_69: 715586161
+      Pixel_Playing_Card_Set_YEWBI_7: 1805494510
+      Pixel_Playing_Card_Set_YEWBI_70: 1347540864
+      Pixel_Playing_Card_Set_YEWBI_71: -1737092999
+      Pixel_Playing_Card_Set_YEWBI_72: 1219804601
+      Pixel_Playing_Card_Set_YEWBI_73: 940878356
+      Pixel_Playing_Card_Set_YEWBI_74: 1160621086
+      Pixel_Playing_Card_Set_YEWBI_75: -1883863189
+      Pixel_Playing_Card_Set_YEWBI_76: 1379114769
+      Pixel_Playing_Card_Set_YEWBI_77: 1432073062
+      Pixel_Playing_Card_Set_YEWBI_78: 476392959
+      Pixel_Playing_Card_Set_YEWBI_79: 455430090
+      Pixel_Playing_Card_Set_YEWBI_8: -1893160437
+      Pixel_Playing_Card_Set_YEWBI_80: 905763241
+      Pixel_Playing_Card_Set_YEWBI_81: -1191845957
+      Pixel_Playing_Card_Set_YEWBI_82: -1423714736
+      Pixel_Playing_Card_Set_YEWBI_83: 132086920
+      Pixel_Playing_Card_Set_YEWBI_84: -450505835
+      Pixel_Playing_Card_Set_YEWBI_85: -445326592
+      Pixel_Playing_Card_Set_YEWBI_86: 209860342
+      Pixel_Playing_Card_Set_YEWBI_87: -2035256957
+      Pixel_Playing_Card_Set_YEWBI_88: 548169027
+      Pixel_Playing_Card_Set_YEWBI_89: 1848154261
+      Pixel_Playing_Card_Set_YEWBI_9: -1256832225
+      Pixel_Playing_Card_Set_YEWBI_90: -2077370417
+      Pixel_Playing_Card_Set_YEWBI_91: -1490728300
+      Pixel_Playing_Card_Set_YEWBI_92: 946467638
+      Pixel_Playing_Card_Set_YEWBI_93: 1173496216
+      Pixel_Playing_Card_Set_YEWBI_94: -238085326
+      Pixel_Playing_Card_Set_YEWBI_95: 1898106421
+      Pixel_Playing_Card_Set_YEWBI_96: 141235594
+      Pixel_Playing_Card_Set_YEWBI_97: 804572269
+      Pixel_Playing_Card_Set_YEWBI_98: 1289820000
+      Pixel_Playing_Card_Set_YEWBI_99: 1875263978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
