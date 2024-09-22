@@ -29,7 +29,9 @@ public class GamePlay : MonoBehaviour
 
     private void dealFunc(){
         Debug.Log("Dealing Cards");
+        GameObject.Find("Base").GetComponent<cards_script>().Shuffle();
         PS.startHand();
+        DS.startHand();
     }
     private void hitFunc(){
         Debug.Log("Hitting you with a CARD");

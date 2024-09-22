@@ -36,9 +36,9 @@ public class cards_script : MonoBehaviour
         valueIndex++;
     }
     public void Shuffle(){
-        int tot = allCards.Length;
-        for(int i = (tot  - 1); i ==0; i--){
-            int ii = Mathf.FloorToInt(Random.Range(0f,1f) * (tot - 1)) + 1; //random val to swap with
+        //int tot = allCards.Length;
+        for(int i = (allCards.Length  - 1); i > 0; i--){
+            int ii = Mathf.FloorToInt(Random.Range(0f,1f) * (allCards.Length - 1)) + 1; //random val to swap with
             Sprite front = allCards[i]; //temp value for sprite
             allCards[i] = allCards[ii]; //swap value
             allCards[ii] = front; //assign temp
@@ -46,6 +46,7 @@ public class cards_script : MonoBehaviour
             cardValues[i] = cardValues[ii]; //swap value
             cardValues[ii] = vali; //assign temp
         }
+        Debug.Log("deck was shuffled; prep for takeoff");
     }
 
     public int Deal(cardScript cardScript){
