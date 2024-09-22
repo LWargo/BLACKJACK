@@ -9,6 +9,9 @@ public class GamePlay : MonoBehaviour
     public Button dealbutt;
     public Button hitbutt;
     public Button staybutt;
+    public Button betbutt;
+    public action_script PS;
+    public action_script DS;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +29,7 @@ public class GamePlay : MonoBehaviour
 
     private void dealFunc(){
         Debug.Log("Dealing Cards");
+        PS.startHand();
     }
     private void hitFunc(){
         Debug.Log("Hitting you with a CARD");

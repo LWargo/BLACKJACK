@@ -15,7 +15,7 @@ public class cards_script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        AssignValue();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class cards_script : MonoBehaviour
     {
         
     }
-    void assignValue(){
+    void AssignValue(){
         int val = 0; //original valye
         for(int i = 0; i < allCards.Length; i++){ //go through all card
             val = i;
@@ -35,7 +35,7 @@ public class cards_script : MonoBehaviour
         }
         valueIndex++;
     }
-    public void shuffle(){
+    public void Shuffle(){
         int tot = allCards.Length;
         for(int i = (tot  - 1); i ==0; i--){
             int ii = Mathf.FloorToInt(Random.Range(0f,1f) * (tot - 1)) + 1; //random val to swap with
@@ -46,5 +46,21 @@ public class cards_script : MonoBehaviour
             cardValues[i] = cardValues[ii]; //swap value
             cardValues[ii] = vali; //assign temp
         }
+    }
+
+    public int Deal(cardScript cardScript){
+      //  Debug.Log("starting to deal");
+        cardScript.SetSprite(allCards[valueIndex]);
+     //   Debug.Log("sprites set");
+
+        cardScript.SetValue(cardValues[valueIndex]);
+        Debug.Log("values set");
+
+        valueIndex++;
+        return cardScript.GetValue();
+
+    }
+    public Sprite GetCardBack(){
+        return allCards[0];
     }
 }
