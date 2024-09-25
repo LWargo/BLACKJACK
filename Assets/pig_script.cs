@@ -5,10 +5,14 @@ using UnityEngine;
 
 public class pig_script : MonoBehaviour
 {
+    public GameObject pid;
+
+    public int stepCount;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("walk", .5f, 2f);
+       // walk();
+        //InvokeRepeating("walk", .5f, 2f);
     }
 
     // Update is called once per frame
@@ -18,11 +22,19 @@ public class pig_script : MonoBehaviour
     }
 
     void walk(){
-        if(transform.position.x < 6){
-            transform.position = new Vector3(1,0,0);
+        Debug.Log("pid step");
+        while(stepCount < 6){
+            pid.transform.position = Vector3.right;
+            stepCount++;
         }
-        if(transform.position.x == 6){
-            transform.position = new Vector3(-1,0,0);
+        if(stepCount == 6){
+            pid.transform.position = Vector3.left;
+            stepCount--;
         }
+        while(stepCount > 0){
+            pid.transform.position = Vector3.left;
+            stepCount--;
+        }
+        walk();
     }
 }

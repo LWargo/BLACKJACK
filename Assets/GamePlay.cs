@@ -22,14 +22,21 @@ public class GamePlay : MonoBehaviour
     public Text Bettext;
     public Text StateText;
     public bool roundEnded = false;
+    public GameObject hid;
+    public GameObject bird;
   //  public Text sbt; 
     //public Text announcement;
 
     public int pot = 0;
+//    public cardBack CB;
+    
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
+
         dealbutt.onClick.AddListener( () => dealFunc() );
         hitbutt.onClick.AddListener( () => hitFunc() );
         staybutt.onClick.AddListener( () => stayFunc() );
@@ -40,6 +47,7 @@ public class GamePlay : MonoBehaviour
         StateText.gameObject.SetActive(false);
         PS.ResetGame();
         DS.ResetGame();
+        bird.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -59,6 +67,7 @@ public class GamePlay : MonoBehaviour
         Bettext.text = "Bet: " + pot.ToString();
         Moneytxt.text = "Money: " + PS.GetMoney().ToString();
         pot = 50;
+     //   Bettext.text = "Pot: $" + pot.ToString();
         PS.adjustMoney(-25);
         Moneytxt.text = "Money: " + PS.GetMoney().ToString();
     }
@@ -68,7 +77,8 @@ public class GamePlay : MonoBehaviour
             PS.getCard();
         }
         Handtxt.text ="Hand: " + PS.handVal.ToString();
-        CheckCondition();
+        dealerHitFunc();
+       // CheckCondition();
     }
     private void stayFunc(){
         Debug.Log("Bro thinks he has a good hand; staying");
@@ -78,6 +88,7 @@ public class GamePlay : MonoBehaviour
     }
 
     private void dealerHitFunc(){
+        hid.gameObject.SetActive(false);
         while(DS.handVal < 16 && DS.cIndex < 6){
             DS.getCard();
             //update Scores
@@ -97,26 +108,35 @@ public class GamePlay : MonoBehaviour
         Debug.Log("checking for a win.....");
 
         if(playerBust == true && dealerBust == true){
+                    hid.gameObject.SetActive(false);
+
             StateText.text = "EVERYONE LOST ";
+            bird.gameObject.SetActive(true);
             StateText.gameObject.SetActive(true);
             PS.adjustMoney(pot/2);
             roundEnded = true;
 
-        }else if (d21 == true|| playerBust == true || dealerBust == false && DS.handVal > PS.handVal){
+        }else if (d21 == true|| PS.handVal == DS.handVal || playerBust == true || dealerBust == false && DS.handVal > PS.handVal){
+            hid.gameObject.SetActive(false);
+            bird.gameObject.SetActive(true);
             StateText.text = "House Wins!";
             StateText.gameObject.SetActive(true);
             roundEnded = true;
             pot = 0;
 
         } else if (p21 == true || dealerBust == true || DS.handVal < PS.handVal){
-            StateText.text = "Player Wins!!! Thanks for Playing";
+            hid.gameObject.SetActive(false);
+            StateText.text = "Player Wins!!!";
             StateText.gameObject.SetActive(true);
-            PS.adjustMoney(pot);
+            bird.gameObject.SetActive(true);
+            PS.adjustMoney(pot + 25);
             pot = 0;
             roundEnded = true;
         } else if (PS.handVal == DS.handVal){
+            hid.gameObject.SetActive(false);
             StateText.text = "TIE STATE";
             StateText.gameObject.SetActive(true);
+            bird.gameObject.SetActive(true);
             PS.adjustMoney(pot/2);
             pot = 0;
             roundEnded = true;
@@ -128,8 +148,11 @@ public class GamePlay : MonoBehaviour
             roundEnded = false;
         }
         if(roundEnded == true){
+            
             Debug.Log("resetting the game");
             resetbutt.gameObject.SetActive(true);
+            bird.gameObject.SetActive(true);
+
        //     Thread.Sleep(4000);
         //    StateText.gameObject.SetActive(false);
          //   Thread.Sleep(3500);
@@ -142,13 +165,17 @@ public class GamePlay : MonoBehaviour
         PS.adjustMoney(-25);
         Moneytxt.text = "Money: " + PS.GetMoney().ToString();
         pot = pot + 50;
-        Bettext.text = "Bet: $" + pot.ToString();
+        
+        Bettext.text = "Bet: $" + (pot-50).ToString();
     }
 
     public void firstset(){
         StateText.gameObject.SetActive(false);
         resetbutt.gameObject.SetActive(false);
+        hid.gameObject.SetActive(true);
+        bird.gameObject.SetActive(false);
         PS.ResetGame();
         DS.ResetGame();
     }
+   
 }
