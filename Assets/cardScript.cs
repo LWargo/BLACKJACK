@@ -21,6 +21,8 @@ public class cardScript : MonoBehaviour
     }
 
     public void Reset(){
+        
+
         Sprite back = GameObject.Find("Base").GetComponent<cards_script>().GetCardBack();
         gameObject.GetComponent<SpriteRenderer>().sprite = back;
         value = 0;

@@ -186,7 +186,8 @@ MonoBehaviour:
     \"bet,\" \"stay,\" or \"call.\"\n5) If you hit, you will receive one new card
     for every hit. If you bet, you will bet $25 from your hand that the dealer will
     always match. If you stay, it is the dealer's turn. If you call, the turn will
-    end. \n"
+    end. \n6) The buy-in will always be $25.\n7) In a tie state, the house will always
+    win.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -706,7 +707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: -157}
+  m_AnchoredPosition: {x: -282, y: -187}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733459600

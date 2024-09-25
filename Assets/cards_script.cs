@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Cache;
 using TMPro;
 using Unity.Collections.LowLevel.Unsafe;
+using UnityEditor.IMGUI.Controls;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
@@ -10,7 +13,7 @@ public class cards_script : MonoBehaviour
 {
     public Sprite[] allCards;
     public int[] cardValues = new int[53];
-
+    public Sprite [] allBacks;
     private int valueIndex;
 
     public cardBack CB;
@@ -21,9 +24,9 @@ public class cards_script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       //int p =CB.getPlayerSelection();
-        //checkPlayerChoice(p);
+       
         AssignValue();
+        checkPlayerChoice();
     }
 
     // Update is called once per frame
@@ -72,22 +75,52 @@ public class cards_script : MonoBehaviour
 
     }
     public Sprite GetCardBack(){
+        
         return allCards[0];
     }
-     public void checkPlayerChoice(int p){
-        Debug.Log("card back selection" + p);
+
+    public Sprite selectedBacking(){
+        int p = PlayerPrefs.GetInt("playerChoice");
         if(p == 1){
-            allCards[0] = back1;
+            GameObject bb; 
+            bb = GameObject.Find("Base");
+            bb.transform.localScale = new Vector3(15f, 15f, 0);
+            GameObject hh;
+            hh = GameObject.Find("Hidden_pig_card");
+            hh.transform.localScale = new Vector3(15f, 15f, 0);
+            return back1;
         }
         if(p == 2){
-            allCards[0] = back2;
+            GameObject bb; 
+            bb = GameObject.Find("Base");
+            bb.transform.localScale = new Vector3(5f, 5f, 0);
+            GameObject hh;
+            hh = GameObject.Find("Hidden_pig_card");
+            hh.transform.localScale = new Vector3(5f, 5f, 0);
+            return back2;
         }
         if(p == 3){
-            allCards[0] = back3;
+             GameObject bb; 
+            bb = GameObject.Find("Base");
+            bb.transform.localScale = new Vector3(5f, 5f, 0);
+            GameObject hh;
+            hh = GameObject.Find("Hidden_pig_card");
+            hh.transform.localScale = new Vector3(5f, 5f, 0);
+            return back3;
         }
         else{
-            allCards[0] = back1;
-
+            
+            return back1;
         }
+        
     }
+     public void checkPlayerChoice(){
+        //SpriteRenderer front;
+       // Debug.Log("card back selection: " + p);
+        GetComponent<SpriteRenderer>().sprite = selectedBacking();
+        GetComponent<SpriteRenderer>().sprite = selectedBacking();
+
+
+    }
+  
 }

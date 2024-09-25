@@ -20,9 +20,9 @@ public class cardBack : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        select1.onClick.AddListener( () => updateChoice(1));
-        select2.onClick.AddListener( () => updateChoice(2));
-        select3.onClick.AddListener( () => updateChoice(3));
+        select1.onClick.AddListener( () => PlayerPrefs.SetInt("playerChoice", 1));
+        select2.onClick.AddListener( () => PlayerPrefs.SetInt("playerChoice", 2));
+        select3.onClick.AddListener( () => PlayerPrefs.SetInt("playerChoice", 3));
         goBack.onClick.AddListener( () => goMenu());
     }
 
@@ -32,7 +32,8 @@ public class cardBack : MonoBehaviour
         
     }
     public void updateChoice(int selected){
-        playerChoice = selected;
+        Debug.Log(playerChoice);
+        PlayerPrefs.SetInt("playerChoice", selected);
     }
     public void goMenu(){
         SceneManager.LoadScene("Menu" , LoadSceneMode.Single);
