@@ -26,10 +26,15 @@ public class GamePlay : MonoBehaviour
     //public Text announcement;
 
     public int pot = 0;
+//    public cardBack CB;
+    
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
+
         dealbutt.onClick.AddListener( () => dealFunc() );
         hitbutt.onClick.AddListener( () => hitFunc() );
         staybutt.onClick.AddListener( () => stayFunc() );
@@ -151,4 +156,5 @@ public class GamePlay : MonoBehaviour
         PS.ResetGame();
         DS.ResetGame();
     }
+   
 }

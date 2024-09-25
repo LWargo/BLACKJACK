@@ -12,9 +12,17 @@ public class cards_script : MonoBehaviour
     public int[] cardValues = new int[53];
 
     private int valueIndex;
+
+    public cardBack CB;
+    public Sprite back1;
+    public Sprite back2;
+    public Sprite back3;
+
     // Start is called before the first frame update
     void Start()
     {
+       //int p =CB.getPlayerSelection();
+        //checkPlayerChoice(p);
         AssignValue();
     }
 
@@ -50,6 +58,8 @@ public class cards_script : MonoBehaviour
     }
 
     public int Deal(cardScript cardScript){
+        
+
       //  Debug.Log("starting to deal");
         cardScript.SetSprite(allCards[valueIndex]);
      //   Debug.Log("sprites set");
@@ -63,5 +73,21 @@ public class cards_script : MonoBehaviour
     }
     public Sprite GetCardBack(){
         return allCards[0];
+    }
+     public void checkPlayerChoice(int p){
+        Debug.Log("card back selection" + p);
+        if(p == 1){
+            allCards[0] = back1;
+        }
+        if(p == 2){
+            allCards[0] = back2;
+        }
+        if(p == 3){
+            allCards[0] = back3;
+        }
+        else{
+            allCards[0] = back1;
+
+        }
     }
 }
